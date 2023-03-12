@@ -5,7 +5,10 @@
   <mj-body background-color="#ffffff">
     <mj-section padding-bottom="10px" padding-top="10px">
       <mj-column width="100%" vertical-align="top">
+        <!-- for use in local development
         <mj-image href="https://foto-dino.de" src="../assets/logo.png" alt="Foto Dino logo" align="center" border="none" width="400px" padding="10px">
+          Foto Dino Logo</mj-image> -->
+        <mj-image href="https://foto-dino.de" src="{{ getAssetUrl('themes/'~template~'/assets/logo.png', null, null, true) }}" alt="Foto Dino logo" align="center" border="none" width="400px" padding="10px">
           Foto Dino Logo</mj-image>
       </mj-column>
     </mj-section>
