@@ -1,0 +1,9 @@
+{
+  "name": "Foto Dino",
+  "author": "Claus-Peter Kaepplinger",
+  "authorUrl": "https://wehoma.de",
+  "builder": ["grapesjsbuilder"],
+  "features": [
+    "email"
+  ]
+}
